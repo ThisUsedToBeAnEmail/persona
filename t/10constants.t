@@ -1,6 +1,5 @@
-use lib '.';
-
 BEGIN {				# Magic Perl CORE pragma
+    use lib '.';
     if ($ENV{PERL_CORE}) {
         chdir 't' if -d 't';
         @INC = '../lib';
