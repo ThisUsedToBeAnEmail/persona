@@ -38,7 +38,7 @@ print "all should never show\$/";
 SRC
 
 # make sure we have it as a file
-my $filename = "foo";
+my $filename = "lib/foo";
 open( my $out, '>', $filename ) or die "Could not open $filename: $!";
 my $written = print $out $source;
 ok( $written, "could write file $filename" );
