@@ -8,6 +8,7 @@ WriteMakefile (
 	AUTHOR		=> 'Elizabeth Mattijsen (liz@dijkmat.nl)',
 	ABSTRACT	=> 'persona - control which code will be loaded for an execution context',
 	VERSION_FROM	=> 'lib/persona.pm',
+	LICENSE  	=> 'perl_5',
 	CONFIGURE_REQUIRES => {
 		'ExtUtils::MakeMaker' => '0',
 		'Module::Metadata' => '1.000033',
