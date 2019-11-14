@@ -1,10 +1,11 @@
+use lib '.';
+
 BEGIN {				# Magic Perl CORE pragma
     if ($ENV{PERL_CORE}) {
         chdir 't' if -d 't';
         @INC = '../lib';
     }
 }
-
 # set up tests to do
 use Test::More tests => 2 + 3 + ( 2 * 4 ) + 1;
 
