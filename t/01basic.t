@@ -1,5 +1,3 @@
-
-use lib '.';
 BEGIN {				# Magic Perl CORE pragma
     if ($ENV{PERL_CORE}) {
         chdir 't' if -d 't';
