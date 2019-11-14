@@ -10,7 +10,7 @@ perl:
   - "5.20"
   - "5.26"
   - "blead"
-sudo: false
+sudo: true
 matrix:
   include:
     - perl: 5.18
