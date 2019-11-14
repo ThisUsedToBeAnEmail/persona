@@ -655,7 +655,7 @@ Elizabeth Mattijsen, <liz@dijkmat.nl>.
 
 maintained by LNATION, <thisusedtobeanemail@gmail.com>
 
-Please report bugs to <perlbugs@dijkmat.nl>.
+Please report bugs to <thisusedtobeanemail@gmail.com>.
 
 =head1 HISTORY
 
